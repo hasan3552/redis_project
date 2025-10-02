@@ -11,7 +11,7 @@ public class MessageConsumer {
     @Value("${rabbitmq.queue.name}")
     public String queue;
 
-    @RabbitListener(queues = "myQueue")
+    @RabbitListener(queues = "myKey")
     public void receiveMessage(Object message) {
         System.out.println("Qabul qilindi: " + message);
     }
