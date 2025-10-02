@@ -8,7 +8,7 @@ WORKDIR /app
 COPY src .
 
 # Maven orqali build qilish (agar maven-wrapper yoki target jar bo‘lsa)
-RUN ./mvnw clean package -DskipTests
+RUN mvn clean package -DskipTests
 
 # Jar faylni ishga tushiramiz
 CMD ["java", "-jar", "target/redis_project-0.0.1-SNAPSHOT.jar"]
