@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class MessageListener {
 
-    @RabbitListener(queues = "${rabbitmq.queue.name}")
+    @RabbitListener(queues = "myQueue")
     public void receiveMessage(Object message) {
         System.out.println("Qabul qilindi: " + message);
     }
