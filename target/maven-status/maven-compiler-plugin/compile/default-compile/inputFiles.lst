@@ -1,0 +1,17 @@
+/Users/macbookpro/Desktop/java project/redis_project/src/main/java/com/company/RedisApplication.java
+/Users/macbookpro/Desktop/java project/redis_project/src/main/java/com/company/dto/MenuDTO.java
+/Users/macbookpro/Desktop/java project/redis_project/src/main/java/com/company/dto/SaveUser.java
+/Users/macbookpro/Desktop/java project/redis_project/src/main/java/com/company/config/MessageConsumer.java
+/Users/macbookpro/Desktop/java project/redis_project/src/main/java/com/company/service/MenuUsersService.java
+/Users/macbookpro/Desktop/java project/redis_project/src/main/java/com/company/entity/User.java
+/Users/macbookpro/Desktop/java project/redis_project/src/main/java/com/company/service/MenuService.java
+/Users/macbookpro/Desktop/java project/redis_project/src/main/java/com/company/config/RabbitMQConfig.java
+/Users/macbookpro/Desktop/java project/redis_project/src/main/java/com/company/entity/Menu.java
+/Users/macbookpro/Desktop/java project/redis_project/src/main/java/com/company/entity/MenuUsers.java
+/Users/macbookpro/Desktop/java project/redis_project/src/main/java/com/company/controller/UserController.java
+/Users/macbookpro/Desktop/java project/redis_project/src/main/java/com/company/repository/redis/MenuUsersRepository.java
+/Users/macbookpro/Desktop/java project/redis_project/src/main/java/com/company/service/MessageService.java
+/Users/macbookpro/Desktop/java project/redis_project/src/main/java/com/company/repository/redis/MenuRepository.java
+/Users/macbookpro/Desktop/java project/redis_project/src/main/java/com/company/repository/jpa/UserRepository.java
+/Users/macbookpro/Desktop/java project/redis_project/src/main/java/com/company/controller/MenuController.java
+/Users/macbookpro/Desktop/java project/redis_project/src/main/java/com/company/service/UserService.java

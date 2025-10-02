@@ -1,0 +1,16 @@
+com/company/repository/jpa/UserRepository.class
+com/company/service/MenuUsersService.class
+com/company/config/MessageConsumer.class
+com/company/controller/UserController.class
+com/company/entity/User.class
+com/company/entity/MenuUsers.class
+com/company/repository/redis/MenuUsersRepository.class
+com/company/service/MenuService.class
+com/company/entity/Menu.class
+com/company/dto/SaveUser.class
+com/company/controller/MenuController.class
+com/company/RedisApplication.class
+com/company/dto/MenuDTO.class
+com/company/service/UserService.class
+com/company/repository/redis/MenuRepository.class
+com/company/service/MessageService.class
