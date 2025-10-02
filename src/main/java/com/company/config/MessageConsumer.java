@@ -15,11 +15,4 @@ public class MessageConsumer {
     public void receiveMessage(Object message) {
         System.out.println("Qabul qilindi: " + message);
     }
-
-
-
-    @RabbitListener(queues = "myKey")
-    public void receiveMessage(Object message) {
-        System.out.println("Qabul qilindi: " + message);
-    }
 }
