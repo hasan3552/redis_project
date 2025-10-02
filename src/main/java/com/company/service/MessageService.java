@@ -20,7 +20,7 @@ public class MessageService {
 
 
     public void sendMessage(Object message) {
-        rabbitTemplate.convertAndSend("myExchange", "myQueue", message);
+        rabbitTemplate.convertAndSend("myExchange", "myKey", message);
         System.out.println("Xabar yuborildi: " + message);
     }
 }
