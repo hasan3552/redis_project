@@ -1,3 +1,10 @@
+package com.company.service;
+
+import org.springframework.amqp.rabbit.core.RabbitTemplate;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Service;
+
 @Service
 public class MessageService {
 
@@ -11,7 +18,7 @@ public class MessageService {
     private String routingKey;
 
     public void sendMessage(Object message) {
-        rabbitTemplate.convertAndSend(exchange, routingKey, message);
+        rabbitTemplate.convertAndSend("myExchange", "myKey", message);
         System.out.println("Xabar yuborildi: " + message);
     }
 }
